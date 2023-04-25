@@ -87,10 +87,10 @@ h4 {
     flex-basis: 100%;
   }
 }
-.header {
+.main_header {
   background: radial-gradient(#fff, #ffd6d6);
 }
-.header .row {
+.main_header .row {
   margin-top: 70px;
 }
 .navbar {
@@ -289,4 +289,32 @@ small {
 }
 .footer .copyright {
   text-align: center;
+}
+.row-2 {
+  justify-content: space-between;
+  margin: 50px auto 20px;
+}
+select {
+  border: 1px solid #ff523b;
+  padding: 5px;
+}
+select:focus {
+  outline: none;
+}
+.page_btn {
+  margin: 0 auto 80px;
+}
+.page_btn span {
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.page_btn span:hover {
+  background: #ff523b;
+  color: #fff;
 }
